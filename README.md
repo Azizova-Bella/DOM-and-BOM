@@ -49,6 +49,8 @@ let nextSibling = elementById.nextSibling;
 
 ---
 
+![image](https://github.com/user-attachments/assets/55fcc300-b7a0-41c5-865a-1c9f7791a78f)
+
 ## Что такое BOM?
 **Browser Object Model (BOM)** представляет окружение браузера и предоставляет методы и свойства для взаимодействия с самим браузером (за пределами содержимого веб-страницы).
 
