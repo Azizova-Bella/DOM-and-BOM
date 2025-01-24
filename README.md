@@ -1,5 +1,7 @@
 # DOM-and-# README: Понимание DOM и BOM в JavaScript
 
+![image](https://github.com/user-attachments/assets/7d3a8232-5602-4dc6-bb38-de2e428fc26f)
+
 ## Введение
 При работе с JavaScript в веб-разработке вы столкнетесь с двумя важными концепциями: **Document Object Model (DOM)** и **Browser Object Model (BOM)**. Этот README-файл предоставляет обзор того, что это такое, их различия и основные методы, связанные с каждым из них.
 
