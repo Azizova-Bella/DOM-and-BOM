@@ -19,6 +19,10 @@
 ### Основные методы:
 Ниже приведены наиболее часто используемые методы DOM:
 
+
+![image](https://github.com/user-attachments/assets/b36ba42b-17a1-4267-af09-bf27b032d4ee)
+
+
 ```javascript
 // Доступ к элементам
 let elementById = document.getElementById('id');
