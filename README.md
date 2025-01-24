@@ -5,6 +5,8 @@
 
 ---
 
+![image](https://github.com/user-attachments/assets/a8c86777-cd8e-4b4e-bff7-6c0563d0e72f)
+
 ## Что такое DOM?
 **Document Object Model (DOM)** — это программный интерфейс для HTML- и XML-документов. Он представляет структуру документа в виде дерева объектов, где каждый узел — это объект, представляющий часть документа (например, элементы, атрибуты или текст).
 
@@ -17,24 +19,24 @@
 
 ```javascript
 // Доступ к элементам
-let elementById = document.getElementById('id'); // Выбор элемента по ID
-let elementBySelector = document.querySelector('selector'); // Первый элемент по селектору
-let elementsBySelector = document.querySelectorAll('selector'); // Все элементы по селектору
+let elementById = document.getElementById('id');
+let elementBySelector = document.querySelector('selector'); 
+let elementsBySelector = document.querySelectorAll('selector'); 
 
 // Манипуляция элементами
-let htmlContent = elementById.innerHTML; // Получение или установка HTML-содержимого
-let textContent = elementById.textContent; // Получение или установка текстового содержимого
-elementById.setAttribute('attribute', 'value'); // Установка атрибута элемента
-elementById.removeAttribute('attribute'); // Удаление атрибута элемента
+let htmlContent = elementById.innerHTML;
+let textContent = elementById.textContent; 
+elementById.setAttribute('attribute', 'value');
+elementById.removeAttribute('attribute'); 
 
 // Работа с событиями
-elementById.addEventListener('click', () => { console.log('Clicked!'); }); // Добавление обработчика события
+elementById.addEventListener('click', () => { console.log('Clicked!'); });
 
 // Навигация по DOM-дереву
-let parent = elementById.parentNode; // Родительский узел элемента
-let children = elementById.childNodes; // Дочерние узлы элемента
-let firstChild = elementById.firstChild; // Первый дочерний узел
-let nextSibling = elementById.nextSibling; // Следующий соседний узел
+let parent = elementById.parentNode; 
+let children = elementById.childNodes; 
+let firstChild = elementById.firstChild; 
+let nextSibling = elementById.nextSibling;
 ```
 
 ---
@@ -51,31 +53,31 @@ let nextSibling = elementById.nextSibling; // Следующий соседни�
 
 ```javascript
 // Объект window
-window.alert('Сообщение'); // Отображает диалоговое окно с сообщением
-let userConfirmed = window.confirm('Вы уверены?'); // Диалог подтверждения
-let userInput = window.prompt('Введите что-нибудь'); // Диалог ввода текста
-window.open('https://example.com', '_blank'); // Открыть новую вкладку или окно
+window.alert('Сообщение'); 
+let userConfirmed = window.confirm('Вы уверены?');
+let userInput = window.prompt('Введите что-нибудь');
+window.open('https://example.com', '_blank');
 window.close(); // Закрыть текущее окно
 
 // Объект navigator
-console.log(navigator.userAgent); // Возвращает строку User-Agent браузера
-console.log(navigator.platform); // Возвращает платформу (например, "Win32")
+console.log(navigator.userAgent);
+console.log(navigator.platform);
 
 // Объект location
-console.log(location.href); // Текущий URL страницы
-location.reload(); // Перезагрузить текущую страницу
-location.assign('https://example.com'); // Перейти на новый URL
+console.log(location.href);
+location.reload(); 
+location.assign('https://example.com'); 
 
 // Объект history
-history.back(); // Вернуться на предыдущую страницу
-history.forward(); // Перейти на следующую страницу
-history.go(-1); // Переместиться на определенное количество страниц в истории
+history.back(); 
+history.forward(); 
+history.go(-1); 
 
 // Объект screen
-console.log(screen.width); // Ширина экрана в пикселях
-console.log(screen.height); // Высота экрана в пикселях
-console.log(screen.availWidth); // Доступная ширина экрана (без панели задач)
-console.log(screen.availHeight); // Доступная высота экрана (без панели задач)
+console.log(screen.width); 
+console.log(screen.height); 
+console.log(screen.availWidth); 
+console.log(screen.availHeight);
 ```
 
 ---
@@ -86,7 +88,7 @@ console.log(screen.availHeight); // Доступная высота экрана
 | Область действия    | Содержимое и структура веб-страницы | Окружение и функции браузера         |
 | Ключевой объект     | `document`                          | `window`                             |
 | Назначение          | Управление HTML и CSS               | Взаимодействие с функционалом браузера |
-| Примеры             | `getElementById`, `querySelector`   | `alert`, `location.href`, `navigator.userAgent` |
+| Примеры             | `getElementById`, `querySelector`   | `console.log`, `location.href` |
 
 ---
 
@@ -94,11 +96,4 @@ console.log(screen.availHeight); // Доступная высота экрана
 Понимание DOM и BOM является важным навыком для эффективного программирования на JavaScript в веб-разработке. В то время как DOM позволяет изменять содержимое страницы, BOM предоставляет возможность взаимодействовать с окружением браузера. Освоив их методы, вы сможете создавать динамичные и интерактивные веб-приложения.
 
 ---
-
-## Ресурсы
-- [MDN Web Docs: Document Object Model](https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model)
-- [MDN Web Docs: Browser Object Model](https://developer.mozilla.org/ru/docs/Web/API/Window)
-
-Будем рады вашим предложениям по добавлению новых методов, примеров или исправлений!
-
 
