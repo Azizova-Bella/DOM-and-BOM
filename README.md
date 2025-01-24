@@ -1,4 +1,4 @@
-# DOM-and-# README: Понимание DOM и BOM в JavaScript
+# Понимание DOM и BOM в JavaScript
 
 ![image](https://github.com/user-attachments/assets/7d3a8232-5602-4dc6-bb38-de2e428fc26f)
 
@@ -57,6 +57,10 @@ let nextSibling = elementById.nextSibling;
 ### Основные особенности:
 - Включает такие объекты, как `window`, `navigator`, `location`, `screen` и `history`.
 - Позволяет взаимодействовать с оконной средой браузера и его компонентами.
+
+
+![image](https://github.com/user-attachments/assets/a6202341-2987-4af5-9a72-b230c8df343a)
+
 
 ### Основные объекты и методы:
 Ниже приведены ключевые объекты BOM и связанные с ними методы:
