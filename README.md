@@ -90,6 +90,8 @@ console.log(screen.availHeight);
 
 ---
 
+![image](https://github.com/user-attachments/assets/17d53d82-8a40-49d7-ab37-75da2f155179)
+
 ## Сравнение DOM и BOM
 | Особенность         | DOM                                  | BOM                                  |
 |---------------------|--------------------------------------|--------------------------------------|
