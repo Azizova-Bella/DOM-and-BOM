@@ -45,6 +45,8 @@ let firstChild = elementById.firstChild;
 let nextSibling = elementById.nextSibling;
 ```
 
+![image](https://github.com/user-attachments/assets/1f3f59a4-8a59-4255-aeb9-28203ac68f06)
+
 ---
 
 ## Что такое BOM?
